@@ -14,14 +14,16 @@ function loop(){ // CRIA UMA FUNÇÃO DE LOOP
       })
 	  var res = await z.json()  // RETORNA O OBJETO
      
-	 if(z.status == 422) return console.log(colors.brightRed(`\n${res.erro}\n`)), loop()
+     if(z.status == 422) return console.log(colors.brightRed(`\n${res.erro}\n`)), loop()
      if(z.status == 404) return console.log(colors.brightRed(`\n${res.erro}\n`)), loop()
      if(z.status == 401) return console.log(colors.brightRed(`\n${res.erro}\n`)), loop()
 		 
 	console.log(colors.brightMagenta(`\n${res.nicks_antigos.join("\n")}\n`)) // RETORNA OS NICKS NO CONSOLE
 	console.log(colors.brightYellow(`Nicks copiados para área de transferência.\n`))
-  cb.writeSync(res.nicks_antigos.join("\n")) // COPIA OS NICKS PARA ÁREA DE TRANSFERÊNCIA
-  setTimeout(() => {     
+	  
+	cb.writeSync(res.nicks_antigos.join("\n")) // COPIA OS NICKS PARA ÁREA DE TRANSFERÊNCIA
+ 
+    setTimeout(() => {     
 		 loop() 
     }, 2000);  // ABRE UM TIMEOUT PARA RETORNAR O LOOP APOS 2 SEGUNDOS   
     
