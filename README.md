@@ -12,7 +12,7 @@ npm install
 
 ## Uso
 
-```javascript
+```bash
 node index.js
 ```
 ## API_KEY
