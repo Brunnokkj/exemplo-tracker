@@ -11,7 +11,6 @@
   "dependencies": {
     "clipboardy": "^1.2.3",
     "colors": "^1.4.0",
-    "discord.js": "^12.5.3",
     "node-fetch": "^2.6.1"
   }
 }
