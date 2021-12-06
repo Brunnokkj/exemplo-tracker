@@ -18,7 +18,7 @@ node index.js
 ## API_KEY
 
 ```javascript
-const API_KEY = "API KEY"
+const API_KEY = "API KEY AQUI"
 ```
 
 ## INFO
