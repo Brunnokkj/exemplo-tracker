@@ -1,0 +1,17 @@
+{
+  "name": "exemplotracker",
+  "version": "1.0.0",
+  "description": "exemplo do tracker de usernames",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "147",
+  "license": "ISC",
+  "dependencies": {
+    "clipboardy": "^1.2.3",
+    "colors": "^1.4.0",
+    "discord.js": "^12.5.3",
+    "node-fetch": "^2.6.1"
+  }
+}
