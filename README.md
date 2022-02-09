@@ -1,6 +1,6 @@
 # 147 tracker
 
-um exemplo de uso do nosso tracker de usernames disponível em: [147api](https://api.147bio.club/)
+um exemplo de uso do nosso tracker de usernames disponível em: [147api](https://147api.xyz/)
 
 ## Instalação
 
