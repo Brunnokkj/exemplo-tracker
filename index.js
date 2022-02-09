@@ -8,7 +8,7 @@ function loop(){ // CRIA UMA FUNÇÃO DE LOOP
 
   readline.question(colors.brightBlue('COLOQUE O ID DO USUÁRIO QUE DESEJA PROCURAR OS NICKS ANTIGOS > '), async name => { // CRIA A PERGUNTA
   
-  var z = await fetch(`https://api.147bio.club/tracker?id=${name}`, {  // DA FETCH NA API
+  var z = await fetch(`https://147api.xyz/tracker?id=${name}`, {  // DA FETCH NA API
           method: 'GET',
           headers: { 'API_KEY': API_KEY }
       })
